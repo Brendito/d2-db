@@ -1,0 +1,146 @@
+{
+  "normal": {
+    "armor": {
+      "helm": {
+        "biggins_bonnet": {
+          "name": "Biggin's Bonnet",
+          "itemClass": "armor",
+          "itemType": "helm",
+          "quality": "normal",
+          "rarity": "unique",
+          "baseName": "Cap",
+          "baseItem": "basic.normal.armor.helm.cap",
+          "defense": {
+            "min": 17,
+            "max": 19
+          },
+          "requirements": {
+            "lvl": 3
+          },
+          "durability": 12,
+          "affixes": [
+            "+30% Enhanced Damage",
+            "+14 Defense",
+            "+30 To Attack Rating",
+            "+15 To Mana",
+            "+15 To Life"
+          ],
+          "variedAffixes": []
+        },
+
+        "rockstopper": {
+            "name": "Rockstopper",
+            "itemClass": "armor",
+            "itemType": "helm",
+            "quality": "exceptional",
+            "rarity": "unique",
+            "baseName": "Sallet",
+            "baseItem": "basic.exceptional.armor.helm.sallet",
+            "defense": {
+              "min": 163,
+              "max": 201
+            },
+            "requirements": {
+              "lvl": 31,
+              "str": 43
+            },
+            "durability": 18,
+            "affixes": [
+                "Damage Reduced By 10%",
+                "30% Faster Hit Recovery",
+                "+15 To Vitality"
+            ],
+            "variedAffixes": [
+                {
+                    "affix": "% Enhanced Defense",
+                    "min": 160,
+                    "max": 220
+                },
+                {
+                    "affix": "% Cold Resist",
+                    "min": 20,
+                    "max": 40
+                },
+                {
+                    "affix": "% Fire Resist",
+                    "min": 20,
+                    "max": 50
+                },
+                {
+                    "affix": "% Lightning Resist",
+                    "min": 20,
+                    "max": 40
+                }
+            ]
+      }
+    }
+  },
+  "exceptional": {
+    "armor": {
+      "helm": {
+        "peasant_crown": {
+          "name": "Peasant Crown",
+          "itemClass": "armor",
+          "itemType": "helm",
+          "quality": "exceptional",
+          "rarity": "unique",
+          "baseName": "War Hat",
+          "baseItem": "basic.exceptional.armor.helm.war_hat",
+          "defense": 108,
+          "requirements": {
+            "lvl": 28,
+            "str": 20
+          },
+          "durability": 12,
+          "affixes": [
+            "+100% Enhanced Defense",
+            "+1 To All Skills",
+            "15% Faster Run/Walk",
+            "+20 To Energy",
+            "+20 To Vitality"
+          ],
+          "variedAffixes": [
+            {
+              "affix": "Replenish Life",
+              "min": 6,
+              "max": 12
+            }
+          ]
+        }
+      }
+    }
+  },
+  "elite": {
+    "armor": {
+      "helm": {
+        "harlequin_crest": {
+          "name": "Harlequin Crest",
+          "itemClass": "armor",
+          "itemType": "helm",
+          "quality": "elite",
+          "rarity": "unique",
+          "baseName": "Shako",
+          "baseItem": "basic.elite.armor.helm.shako",
+          "defense": {
+            "min": 98,
+            "max": 141
+          },
+          "requirements": {
+            "lvl": 62,
+            "str": 50
+          },
+          "durability": 12,
+          "affixes": [
+            "+2 To All Skills",
+            "+ (1.5 Per Character Level) 1-148 To Life (Based On Character Level)",
+            "+ (1.5 Per Character Level) 1-148 To Mana (Based On Character Level)",
+            "Damage Reduced By 10%",
+            "50% Better Chance of Getting Magic Items",
+            "+2 To All Attributes"
+          ],
+          "variedAffixes": []
+        }
+      }
+    }
+  }
+}

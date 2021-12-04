@@ -1,0 +1,92 @@
+{
+  "infernal_tools": {
+    "name": "Infernal Tools",
+    "partialSetBonus": [
+      {
+        "items": 2,
+        "affixes": ["+8 Poison Damage Over 3 Seconds"]
+      }
+    ],
+    "completeSetBonus": [
+      "+8 Poison Damage Over 3 Seconds",
+      "20% Chance of Open Wounds",
+      "+1 to Necromancer Skill Levels",
+      "20% Bonus to Attack Rating",
+      "6% Mana Stolen Per Hit"
+    ],
+    "items": {
+      "infernal_cranium": {
+        "name": "Infernal Cranium",
+        "itemClass": "armor",
+        "itemType": "helm",
+        "quality": "normal",
+        "rarity": "set",
+        "baseName": "Cap",
+        "baseItem": "basic.normal.armor.helm.cap",
+        "defense": {
+          "min": 3,
+          "max": 5
+        },
+        "requirements": {
+          "lvl": 5
+        },
+        "durability": 12,
+        "affixes": ["20% Damage Taken Goes to Mana", "All Resistances +10"],
+        "setBonuses": [
+          {
+            "items": 2,
+            "affixes": [
+              "+ (2 Per Character Level) 2-198 Defense (Based On Character Level)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "cow_kings_leathers": {
+    "name": "Cow King's Leathers",
+    "partialSetBonus": [
+      {
+        "items": 2,
+        "affixes": ["Poison Resist +25%"]
+      }
+    ],
+    "completeSetBonus": [
+      "Poison Resist +25%",
+      "25% Chance To Cast Level 5 Static Field When Struck",
+      "+100 Maximum Stamina",
+      "+20 To Strength",
+      "+30% Increased Attack Speed",
+      "100% Better Chance Of Getting Magic Items",
+      "100% Extra Gold From Monsters"
+    ],
+    "items": {
+      "cow_kings_horns": {
+        "name": "Cow King's Horns",
+        "itemClass": "armor",
+        "itemType": "helm",
+        "quality": "exceptional",
+        "rarity": "set",
+        "setName": "Cow King's Leathers",
+        "setId": "set.cow_kings_leathers",
+        "baseName": "War Hat",
+        "baseItem": "basic.normal.armor.helm.war_hat",
+        "defense": {
+          "min": 120,
+          "max": 128
+        },
+        "requirements": {
+          "lvl": 25,
+          "str": 20
+        },
+        "durability": 12,
+        "affixes": [
+          "+75 Defense",
+          "Half Freeze Duration",
+          "Attacker Takes Damage of 10",
+          "35% Damage Taken Goes To Mana"
+        ]
+      }
+    }
+  }
+}

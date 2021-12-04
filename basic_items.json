@@ -1,0 +1,359 @@
+{
+  "normal": {
+    "armor": {
+      "helm": {
+        "cap": {
+          "name": "Cap",
+          "itemType": "helm",
+          "quality": "normal",
+          "rarity": "basic",
+          "defense": {
+            "min": 3,
+            "max": 5
+          },
+          "requirements": {
+            "str": 0,
+            "lvl": 0
+          },
+          "durability": 12,
+          "sockets": 2,
+          "qlvl": 1,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/cap.gif",
+          "versions": {
+            "normal": "basic.normal.armor.helm.cap",
+            "exceptional": "basic.exceptional.armor.helm.war_hat",
+            "elite": "basic.elite.armor.helm.shako",
+            "unique": "unique.normal.armor.helm.biggins_bonnet",
+            "set": "set.infernal_tools.items.infernal_cranium"
+          }
+        },
+        "skull_cap": {
+          "name": "Skull Cap",
+          "itemType": "helm",
+          "quality": "normal",
+          "rarity": "basic",
+          "defense": {
+            "min": 8,
+            "max": 11
+          },
+          "requirements": {
+            "lvl": 0,
+            "str": 15
+          },
+          "durability": 18,
+          "sockets": 2,
+          "qlvl": 5,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/skullcap.gif",
+          "versions": {
+            "normal": "basic.normal.armor.helm.skull_cap",
+            "exceptional": "basic.exceptional.armor.helm.sallet",
+            "elite": "basic.elite.armor.helm.hydraskull",
+            "unique": "unique.exceptional.helm.rockstopper"
+          }
+        },
+        "helm": {
+          "name": "Helm",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 15,
+            "max": 18
+          },
+          "requirements": {
+            "lvl": 0,
+            "str": 26
+          },
+          "durability": 24,
+          "sockets": 2,
+          "qlvl": 11,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/helm.gif",
+          "versions": {
+            "normal": "basic.normal.armor.helm.helm",
+            "exceptional": "basic.exceptional.armor.helm.casque",
+            "elite": "basic.elite.armor.helm.armet"
+          }
+        },
+        "full_helm": {
+          "name": "Full Helm",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 23,
+            "max": 26
+          },
+          "requirements": {
+            "lvl": 0,
+            "str": 41
+          },
+          "durability": 30,
+          "sockets": 2,
+          "qlvl": 15,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/fullhelm.gif",
+          "versions": {
+            "normal": "basic.normal.armor.helm.full_helm",
+            "exceptional": "basic.exceptional.armor.helm.basinet",
+            "elite": "basic.elite.armor.helm.giant_conch"
+          }
+        },
+        "great_helm": {
+          "name": "Great Helm",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 30,
+            "max": 35
+          },
+          "durability": 40,
+          "requirements": {
+            "str": 63
+          },
+          "sockets": 3,
+          "qlvl": 23,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/greathelm.gif"
+        },
+        "mask": {
+          "name": "Mask",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 9,
+            "max": 27
+          },
+          "durability": 20,
+          "requirements": {
+            "str": 23
+          },
+          "sockets": 3,
+          "qlvl": 19,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/mask.gif"
+        },
+        "crown": {
+          "name": "Crown",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 25,
+            "max": 45
+          },
+          "durability": 50,
+          "requirements": {
+            "str": 55
+          },
+          "sockets": 3,
+          "qlvl": 29,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/crown.gif"
+        },
+        "bone_helm": {
+          "name": "Bone Helm",
+          "itemType": "Normal Helm",
+          "defense": {
+            "min": 33,
+            "max": 36
+          },
+          "durability": 40,
+          "requirements": {
+            "str": 25
+          },
+          "sockets": 2,
+          "qlvl": 22,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/bonehelm.gif"
+        }
+      },
+      "armor": {
+        "quilted": {
+          "name": "Quilted Armor",
+          "itemType": "Normal Light Armor",
+          "defense": {
+            "min": 8,
+            "max": 11
+          },
+          "requirements": {
+            "str": 12
+          },
+          "durability": 20,
+          "sockets": 2,
+          "armorType": "light",
+          "qlvl": 1,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/quilted.gif",
+          "versions": {
+            "normal": "basic.normal.armor.armor.cap",
+            "exceptional": "basic.exceptional.armor.armor.war_hat",
+            "elite": "basic.elite.armor.helm.shako"
+          }
+        },
+        "leather": {
+          "name": "Leather Armor",
+          "itemType": "Normal Light Armor",
+          "defense": {
+            "min": 14,
+            "max": 17
+          },
+          "requirements": {
+            "str": 15
+          },
+          "durability": 24,
+          "sockets": 2,
+          "armorType": "light",
+          "qlvl": 3,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/leather.gif"
+        },
+        "hard_leather": {
+          "name": "Hard Leather Armor",
+          "itemType": "Normal Light Armor",
+          "defense": {
+            "min": 21,
+            "max": 24
+          },
+          "requirements": {
+            "str": 15
+          },
+          "durability": 24,
+          "sockets": 2,
+          "armorType": "light",
+          "qlvl": 3,
+          "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/leather.gif"
+        }
+      }
+    }
+  },
+  "exceptional": {
+    "helm": {
+      "war_hat": {
+        "name": "War Hat",
+        "itemClass": "armor",
+        "itemType": "helm",
+        "quality": "exceptional",
+        "rarity": "basic",
+        "defense": {
+          "min": 45,
+          "max": 53
+        },
+        "requirements": {
+          "lvl": 22,
+          "str": 20
+        },
+        "durability": 12,
+        "sockets": 2,
+        "qlvl": 34,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/cap.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.cap",
+          "exceptional": "basic.exceptional.armor.helm.war_hat",
+          "elite": "basic.elite.armor.helm.shako",
+          "unique": "unique.exceptional.helm.peasant_crown",
+          "set": "set.cow_kings_leathers.items.cow_kings_horns"
+        }
+      },
+      "sallet": {
+        "name": "Sallet",
+        "itemType": "Exceptional Helm",
+        "defense": {
+          "min": 52,
+          "max": 62
+        },
+        "requirements": {
+          "lvl": 25,
+          "str": 43
+        },
+        "durability": 18,
+        "sockets": 2,
+        "qlvl": 37,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/skullcap.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.skull_cap",
+          "exceptional": "basic.exceptional.armor.helm.sallet",
+          "elite": "basic.elite.armor.helm.hydraskull"
+        }
+      },
+      "casque": {
+        "name": "Casque",
+        "itemType": "Exceptional Helm",
+        "defense": {
+          "min": 63,
+          "max": 72
+        },
+        "requirements": {
+          "lvl": 25,
+          "str": 59
+        },
+        "durability": 24,
+        "sockets": 2,
+        "qlvl": 42,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/helm.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.helm",
+          "exceptional": "basic.exceptional.armor.helm.casque",
+          "elite": "basic.elite.armor.helm.armet"
+        }
+      }
+    },
+    "armor": {}
+  },
+  "elite": {
+    "helm": {
+      "shako": {
+        "name": "Shako",
+        "itemClass": "armor",
+        "itemType": "helm",
+        "quality": "elite",
+        "rarity": "basic",
+        "defense": {
+          "min": 98,
+          "max": 141
+        },
+        "requirements": {
+          "lvl": 43,
+          "str": 50
+        },
+        "durability": 12,
+        "sockets": 2,
+        "qlvl": 58,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/cap.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.cap",
+          "exceptional": "basic.exceptional.armor.helm.war_hat",
+          "elite": "basic.elite.armor.helm.shako",
+          "unique": "unique.elite.armor.helm.shak"
+        }
+      },
+      "hydraskull": {
+        "name": "Hydraskull",
+        "itemType": "Elite Helm",
+        "defense": {
+          "min": 101,
+          "max": 145
+        },
+        "requirements": {
+          "lvl": 47,
+          "str": 84
+        },
+        "durability": 18,
+        "sockets": 2,
+        "qlvl": 63,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/skullcap.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.skull_cap",
+          "exceptional": "basic.exceptional.armor.helm.sallet",
+          "elite": "basic.elite.armor.helm.hydraskull"
+        }
+      },
+      "armet": {
+        "name": "Armet",
+        "itemType": "Elite Helm",
+        "defense": {
+          "min": 105,
+          "max": 149
+        },
+        "requirements": {
+          "lvl": 51,
+          "str": 109
+        },
+        "durability": 24,
+        "sockets": 2,
+        "qlvl": 68,
+        "imageUrl": "http://classic.battle.net/images/battle/diablo2exp/images/items/armor/helm.gif",
+        "versions": {
+          "normal": "basic.normal.armor.helm.helm",
+          "exceptional": "basic.exceptional.armor.helm.casque",
+          "elite": "basic.elite.armor.helm.armet"
+        }
+      }
+    },
+    "armor": {}
+  }
+}
